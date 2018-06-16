@@ -36,19 +36,3 @@ def test_independence(contingency_table):
     print(' ============== Degrees of freedom =============')
     print(dof)
     return p <= 0.05
-
-
-print('============== Technical subjects ==============')
-res = test_independence(read_contingency_table('data/Technical.csv'))
-if res:
-    print('Null hypothesis is rejected')
-else:
-    print('Null hypothesis is accepted')
-
-print('\n\n')
-print('============ Non-technical subjects ============')
-res = test_independence(read_contingency_table('data/Non-technical.csv'))
-if res:
-    print('Null hypothesis is rejected')
-else:
-    print('Null hypothesis is accepted')

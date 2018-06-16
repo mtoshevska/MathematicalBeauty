@@ -47,11 +47,3 @@ def calculate_correlation(series):
     r, p = pearsonr(u, b)
     print(' ======= Pearson correlation coefficient =======')
     print(r)
-
-
-print('============== Technical subjects ==============')
-calculate_correlation(read_series('data/Technical.csv'))
-
-print('\n\n')
-print('============ Non-technical subjects ============')
-calculate_correlation(read_series('data/Non-technical.csv'))
