@@ -39,7 +39,7 @@ def test_independence(contingency_table):
 
 
 print('============== Technical subjects ==============')
-res = test_independence(read_contingency_table('Technical.csv'))
+res = test_independence(read_contingency_table('data/Technical.csv'))
 if res:
     print('Null hypothesis is rejected')
 else:
@@ -47,7 +47,7 @@ else:
 
 print('\n\n')
 print('============ Non-technical subjects ============')
-res = test_independence(read_contingency_table('Non-technical.csv'))
+res = test_independence(read_contingency_table('data/Non-technical.csv'))
 if res:
     print('Null hypothesis is rejected')
 else:
