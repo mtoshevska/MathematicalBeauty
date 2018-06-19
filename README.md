@@ -1,1 +1,2 @@
-# MathematicalBeauty
+# Mathematical Beauty
+The beauty of mathematical formulations lies in abstracting, in simple equations, truths that have universal validity. Many among the mathematicians have written of the importance of beauty in mathematical formulations and have compared the experience of mathematical beauty to that derived from the greatest art. The main purpose of this research is to test whether the experience of mathematical beauty correlates with the understanding of mathematical equations.
